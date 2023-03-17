@@ -134,7 +134,7 @@ body {
     left: 140px;
     top: 160px;
     border-radius: 50px;
-    background: linear-gradient(rgba(255, 255, 255, 0) , rgba(255, 255, 255, 0)) ,url('../static/images/icone.png') center center fixed no-repeat;
+    background: linear-gradient(rgba(255, 255, 255, 0) , rgba(255, 255, 255, 0)) ,url('../static/images/LOGO.png') center center fixed no-repeat;
     background-size: cover;
 }
   
@@ -291,8 +291,8 @@ body {
 .chatbox__button button:focus,
 .chatbox__button button:visited {
     padding: 10px;
-    background: rgb(156, 144, 82);
-    border: none;
+    background: rgb(171, 134, 13);
+    border:0.5px  solid #55440193;
     outline: none;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
