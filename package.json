@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "dialogflow-v2": "^2.2.0",
+    "googleapis": "^112.0.0",
+    "langdetect": "^0.2.1"
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "intents": [
+    {
+      "tag":"greeting",
+      "patterns":[
+      "Hi" , "Hey" , "How are you" , "Is anyone there?" , "Hello" , "Good day"
+      ],
+      "responses":[
+        "Hey :-)","Hello, thanks for visiting","Hi there, what can I do for you?"
+        ]
+    },
+    {
+      "tag":"salutation",
+      "patterns":[
+      "Bonjour" ,"Bonjour comment allez-vous?", "Il y a quelqu'un là-bas?" , "Salut" 
+      ],
+      "responses":[
+        "Salut :-)","Bonjour, merci de votre visite","Salut, que puis-je faire pour vous ?"
+        ]
+    },
+    {
+      "tag":"saludo",
+      "patterns":[
+       "Hola", "hola cómo estás?" ,"Hay alguien ahí?" , "Hola buen día"
+      ],
+      "responses":[
+        "Hola :-)","Hola, gracias por visitarnos","Hola, ¿qué puedo hacer por ti?"
+        ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+      "Bye", "See you later", "Goodbye"
+      ],
+      "responses": [
+      "See you later, thanks for visiting","Have a nice day","Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "au revoir",
+      "patterns": [
+      "Au revoir", "A plus tard", "Au revoir","a bientôt"
+      ],
+      "responses": [
+      "A plus tard, merci de votre visite","Bonne journée","Au revoir ! Revenez bientôt.","a bientôt"
+      ]
+    },
+    {
+      "tag": "adiós",
+      "patterns": [
+      "Adiós", "Hasta luego", "Adiós","hasta pronto"
+      ],
+      "responses": [
+      "Hasta luego, gracias por visitarnos","Que tengas un buen día","¡Adiós! Vuelve pronto.","hasta pronto"
+      ]
+    },
+    {
+        "tag": "thanks",
+      "patterns": [
+      "thank you", "Appreciationr"
+      ],
+      "responses": [
+      "welcome."
+      ]
+          },
+      {
+        "tag": "merci",
+      "patterns": [
+      "merci", "Appréciation", "merci"
+      ],
+      "responses": [
+      "bienvenu"
+      ]
+          },
+          {
+            "tag": "gracias",
+      "patterns": [
+      "gracias", "Aprecio"
+      ],
+      "responses": [
+      "bienvenida"
+      
+      ]
+          },
+
+      {
+        "tag": "information",
+        "patterns": [
+        "Can you tell me about the Doctorate cycle at FST Marrakech?",
+        "Information about the doctoral program at FST Marrakech"
+        ],
+        "responses": [
+        "The Doctorate cycle at FST Marrakech typically takes three years to complete and involves coursework, research, and a dissertation. During the first year of the program, students are required to take advanced courses in their field of study, which are designed to help them develop the skills and knowledge necessary to conduct independent research "
+        ]
+      },
+      {
+        "tag": "information-fr",
+        "patterns": [
+        "Pouvez-vous me parler du cycle Doctorat à la FST Marrakech ?",
+        "Des informations sur le programme doctoral à la FST Marrakech"
+        ],
+        "responses": [
+        "Le cycle de doctorat à la FST Marrakech dure généralement trois ans et comprend des cours, des recherches et une thèse. Au cours de la première année du programme, les étudiants doivent suivre des cours avancés dans leur domaine d'études, qui sont conçus pour les aider à développer les compétences et les connaissances nécessaires pour mener des recherches indépendantes "
+        ]
+      },
+      {
+        "tag": "information-es",
+        "patterns": [
+        "Puede hablarme sobre el ciclo de doctorado en FST Marrakech?","Información sobre el programa de doctorado en FST Marrakech"
+        ],
+        "responses": [
+        "El ciclo de doctorado en FST Marrakech generalmente toma tres años para completarse e involucra cursos, investigación y una disertación. Durante el primer año del programa, los estudiantes deben tomar cursos avanzados en su campo de estudio, que están diseñados para ayudarlos a desarrollar las habilidades y los conocimientos necesarios para realizar investigaciones independientes "
+        ]
+              },
+        {
+          "tag": "Types-doc",
+          "patterns": [
+          "How many PhD programs are there at FSTG?" ,  "PhD programs FST?" , "types of doctoral programs"
+          ],"responses":[
+          "Computer Engineering, Mathematics Applied to Engineering Sciences, Electrical Engineering, Telecommunications and Industrial Engineering, Biotechnology ."
+          ]
+        },
+      {
+        "tag": "Types-doc-fr",
+        "patterns": [
+        "Combien y a-t-il de programmes doctoraux à la FSTG ?" , "Programmes doctoraux FST?" , "types de programmes doctoraux"
+        ],"responses":[
+        "Genie informatique, Mathématique Appliquées aux Sciences de L’Ingénieur ,Génie Electrique, Télécommunication et Génie Industriel ,Biotechnologie ."
+        ]
+      },
+      {
+        "tag": "Types-doc-es",
+        "patterns": [
+        "¿Cuántos programas de doctorado hay en la FSTG?" , "Programas de doctorado fst?" , "tipos de programas de doctorado"
+        ],"responses":[
+        "Ingeniería Informática, Matemáticas Aplicadas a las Ciencias de la Ingeniería, Ingeniería Eléctrica, Telecomunicaciones e Ingeniería Industrial, Biotecnología "
+        ]
+      },
+      {
+        "tag": "computer engineering",
+        "patterns": [
+        "do you have some informations about doctorat of computer Engineering at FST Marrakech?","computer engineering"
+        ],
+        "responses":[
+        "The program focuses on advanced knowledge and skills in computer engineering, including computer architecture, algorithms and data structures, operating systems, computer networks, artificial intelligence, machine learning, and software engineering"
+        ]
+      },
+      {
+        "tag": "computer engineering -fr",
+        "patterns": [
+        "avez-vous des informations sur le doctorat en génie informatique à la FST Marrakech?","génie informatique"
+        ],
+        "responses":[
+        "Le programme se concentre sur des connaissances et des compétences avancées en génie informatique, y compris l'architecture informatique, les algorithmes et les structures de données, les systèmes d'exploitation, les réseaux informatiques, l'intelligence artificielle, l'apprentissage automatique et le génie logiciel"
+        ]
+      },
+      {
+        "tag": "computer engineering -es",
+        "patterns": [
+        "¿tiene alguna información sobre el doctorado en ingeniería informática en FST Marrakech?","ingeniería informática"
+        ],
+        "responses":[
+        "El programa se centra en conocimientos y habilidades avanzados en ingeniería informática, incluida la arquitectura informática, algoritmos y estructuras de datos, sistemas operativos, redes informáticas, inteligencia artificial, aprendizaje automático e ingeniería de software"
+        ]
+      },
+      {
+        "tag":"Industrial Engineering",
+        "patterns": [
+        " Industrial Engineering" ,
+        "do you have some informations about doctorat of industrial Engineering at FST Marrakech?"
+        ],
+        "responses": [
+        "The program is designed to equip students with advanced knowledge and skills in industrial engineering, including production planning and control, quality management, supply chain management, engineering economy, optimization, and decision analysis."
+        ]
+      },
+      {
+        "tag":"Industrial Engineering-fr",
+        "patterns": [
+          "Ingeniería industrial",
+          "¿tiene alguna información sobre el doctorado en ingeniería industrial en FST Marrakech?"
+        ],
+        "responses": [
+          "Le programme est conçu pour doter les étudiants de connaissances et de compétences avancées en génie industriel, y compris la planification et le contrôle de la production, la gestion de la qualité, la gestion de la chaîne d'approvisionnement, l'économie de l'ingénierie, l'optimisation et l'analyse des décisions."
+        ]
+      },
+
+     {
+      "tag":"Industrial Engineering-es",
+      "patterns": [
+      " Industrial Engineering" ,"do you have some informations about doctorat of industrial Engineering at FST Marrakech?"
+      ],
+      "responses": [
+     "Le programme est conçu pour doter les étudiants de connaissances et de compétences avancées en génie industriel, y compris la planification et le contrôle de la production, la gestion de la qualité, la gestion de la chaîne d'approvisionnement, l'économie de l'ingénierie, l'optimisation et l'analyse des décisions."
+      ]
+     },
+     {
+      "tag":"Biotechnology",
+      "patterns": [
+      "Biotechnology","do you have some informations about doctorat of Biotechnology at FST Marrakech?"
+     
+      ],
+      "responses":[
+      "The program focuses on advanced knowledge and skills in biotechnology, including genetic engineering, biomaterials, bioprocessing, bioinformatics, and medical biotechnology"
+      ]
+     },
+     {
+      "tag":"Biotechnology-fr",
+      "patterns": [
+      "Biotechnologie","vous avez des informations sur le doctorat en Biotechnologie à la FST Marrakech ?"
+      ],
+      "responses":[
+      "Le programme se concentre sur les connaissances et compétences avancées en biotechnologie, y compris le génie génétique, les biomatériaux, les bioprocédés, la bioinformatique et la biotechnologie médicale"
+      ]
+     },
+     {
+      "tag":"Biotechnology-es",
+      "patterns": [
+      "¿Tiene alguna información sobre el doctorado en Biotecnología en FST Marrakech"
+      ],
+      "responses":[
+      "El programa se centra en conocimientos y habilidades avanzados en biotecnología, incluida la ingeniería genética, los biomateriales, el bioprocesamiento, la bioinformática y la biotecnología médica"
+      ]
+     },
+     {
+          "tag":"The doctorate cycle registration procedure ",
+        "patterns":[
+        "The doctorate cycle registration procedure", "the steps of registration for the doctorate cycle"
+        ],
+        "responses":[
+        "Identify a doctoral program and a potential supervisor who matches your research interests ,After getting a potential supervisor's approval, you should submit your application online or through mail to the doctoral program department. You need to fill in an application form and provide the required documents, including academic transcripts, CV, recommendation letters (for more details visit the FSTG website: http://www.fstg-marrakech.ac.ma"
+        ]
+     },
+     {
+      "tag":"The doctorate cycle registration procedure-fr",
+    "patterns":[
+    "La procédure d'inscription au cycle doctorat", "les démarches d'inscription au cycle doctorat"
+    ],
+    "responses":[
+    "Identifiez un programme doctoral et un directeur de recherche potentiel qui correspond à vos intérêts de recherche ,Après avoir obtenu l'approbation d'un directeur de recherche potentiel, vous devez soumettre votre candidature en ligne ou par courrier au service du programme doctoral. Vous devez remplir un formulaire de candidature et fournir le documents requis, y compris relevés de notes, CV, lettres de recommandation (pour plus de détails, visitez le site Web de la FSTG : http://www.fstg-marrakech.ac.ma"
+    ]
+ },
+ {
+      "tag":"The doctorate cycle registration procedure-es",
+    "patterns":[
+    "El procedimiento de inscripción al ciclo de doctorado", "los pasos de inscripción al ciclo de doctorado"
+    ],
+    "responses":[
+    "Identifique un programa de doctorado y un supervisor potencial que coincida con sus intereses de investigación. Después de obtener la aprobación de un supervisor potencial, debe enviar su solicitud en línea o por correo al departamento del programa de doctorado. Debe completar un formulario de solicitud y proporcione los documentos requeridos, incluidas las transcripciones académicas, CV, cartas de recomendación (para obtener más detalles, visite el sitio web de FSTG: http://www.fstg-marrakech.ac.ma"
+    ]
+    },
+    {
+      "tag":"condition inscription",
+      "patterns":[
+        "the conditions of registration",
+           "students who can enroll in the doctorate",
+           "How to register"
+      ],
+      "responses":[
+        "in general, to access the doctoral course, you must meet the conditions: ask for a title of bac+5 like a Máster, a Máster Especializado or a title recognized as equivalent in segundo lugar debes tener a note respecting the umbral of the para cada variant year"
+      ]
+    }, 
+    {
+      "tag":"condition inscription -fr",
+      "patterns":[
+        "les conditions d'inscription",
+          "les étudiants qui peuvent s'inscrire au doctorat",
+          "Comment s'inscrire"
+      ],
+      "responses":[
+        "de manière générale, pour accéder au cycle doctoral, vous devez remplir les conditions : être titulaire d'un diplôme bac+5 tel qu'un Master, un Mastère Spécialisé ou un diplôme reconnu équivalent en second lieu vous devez disposer d'une note respectant le seuil de variante pour chaque année"
+      ]
+    },
+    {
+      "tag":"condition inscription-es",
+      "patterns":[
+        "las condiciones de registro",
+           "estudiantes que pueden matricularse en el doctorado",
+           "Cómo registrarse"
+      ],
+      "responses":[
+        "en general, para acceder al ciclo de doctorado, debes cumplir las condiciones: poseer un título de bac+5 como un Máster, un Máster Especializado o un título reconocido como equivalente en segundo lugar debes tener una nota respetando el umbral de la variante para cada año"
+      ]
+    }, 
+    {
+      "tag":"etapes",
+      "patterns":[
+        "the stages of the doctoral cycle"
+      ],
+      "responses":[
+        "Online application URL fst , Display of preselection , Filing of files , Final display , Pre-selection , Administrative registration "
+      ]
+    },
+    {
+      "tag":"etapes-fr",
+      "patterns":[
+        "les étapes du cycle doctoral",
+        "les étapes"
+      
+      ],
+      "responses":[
+        "Candidature en ligne URL fst , Affichage des preselections , Depots des dossiers , Affichage final , Pre-selection , Inscription administrative "
+      ]
+    },
+    {
+      "tag":"etapes-es",
+      "patterns":[
+        "las etapas del ciclo de doctorado"
+      ],
+      "responses":[
+        "Solicitud online URL fst , Visualización de preselección , Archivo de expedientes , Visualización final , Preselección , Registro administrativo "
+      ]
+    }
+      
+
+
+  
+    ]
+  }
